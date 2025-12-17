@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Goud - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ABHISHEK GOUD</h1>
+            <p>AI/ML Developer | LangChain Enthusiast</p>
+            <div class="contact-info">
+                <a href="mailto:goudabhishekgoud@gmail.com">goudabhishekgoud@gmail.com</a> |
+                <a href="tel:+919325288154">+91 9325288154</a> |
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/your-github-profile" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="summary">
+        <div class="container">
+            <h2>Summary</h2>
+            <p>AI/ML Developer with hands-on experience building end-to-end RAG pipelines and LangChain-based automation systems. Proficient in LangChain, LangGraph, and vector databases (FAISS/Chroma) with strong skills in embeddings, chunking strategies, and hybrid retrieval. Experienced in Python-driven orchestration for agent-based automation, enabling intelligent workflows that retrieve, reason, and act.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Technology in Computer Science Engineering</h3>
+                <p>2021 - 2025</p>
+                <p>Dr. Babasaheb Ambedkar Technological University (DBATU)</p>
+                <p>CGPA: 8.5 / 10</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-category">
+                <h3>AI Automation</h3>
+                <p>RAG Pipelines, LangChain, LangGraph, Agents, Workflow Orchestration</p>
+            </div>
+            <div class="skills-category">
+                <h3>Retrieval Systems</h3>
+                <p>Embeddings, Chunking, Hybrid Search, Vector DBs (FAISS, Chroma), Reranking</p>
+            </div>
+            <div class="skills-category">
+                <h3>Programming</h3>
+                <p>Python, SQL, REST APIs, Data Pipelines, Structured & Unstructured Data Handling</p>
+            </div>
+            <div class="skills-category">
+                <h3>LLMs & GenAI</h3>
+                <p>Transformers, Hugging Face, OpenAI APIs, Prompt Engineering, Context Grounding</p>
+            </div>
+            <div class="skills-category">
+                <h3>Tools</h3>
+                <p>FastAPI, Flask, Streamlit, Git, Postman, Jupyter, VS Code</p>
+            </div>
+            <div class="skills-category">
+                <h3>Soft Skills</h3>
+                <p>Problem-Solving, Analytical Thinking, Communication, Teamwork</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Document Question-Answering System using RAG</h3>
+                <p>2025</p>
+                <ul>
+                    <li>Built a RAG-based QA system for answering queries from PDFs and text documents.</li>
+                    <li>Implemented hybrid retrieval (BM25 + Embeddings) using FAISS for fast and accurate context search.</li>
+                    <li>Used LangChain and LangGraph to orchestrate a multi-step workflow (retrieve → rank → reason → answer).</li>
+                    <li>Improved grounding accuracy using reranking models, prompt optimization, and context filtering.</li>
+                    <li>Integrated API-based actions for automated responses and workflow execution.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Credit Risk Scoring Model – Machine Learning Project</h3>
+                <ul>
+                    <li>Built an end-to-end ML model to classify loan applicants as High-Risk or Low-Risk.</li>
+                    <li>Trained and evaluated a Random Forest Classifier with cross-validation; assessed metrics such as accuracy, precision, recall, and ROC-AUC.</li>
+                    <li>Deployed the model using Streamlit for real-time risk prediction.</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h3>Image Classification using CNN – Deep Learning Project</h3>
+                <ul>
+                    <li>Developed a Convolutional Neural Network (CNN) for image classification using TensorFlow/Keras.</li>
+                    <li>Applied data augmentation, normalization, and batching to improve generalization and training stability.</li>
+                    <li>Trained and evaluated the model using metrics such as Accuracy, Loss, and Confusion Matrix.</li>
+                    <li>Saved the trained model and built a simple prediction interface for classifying new images.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <div class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Gold Certification in Python and Data Analytics – Innomatics Research Labs.</li>
+                <li>Data Analytics Virtual Experience Program – Quantium (Forage).</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Abhishek Goud. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+--css--
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #0a192f;
+    color: #ccd6f6;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #64ffda;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #8892b0;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #64ffda;
+}
+
+section {
+    padding: 40px 0;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+section:nth-child(even) {
+    background-color: #eef2f3;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0a192f;
+    font-size: 2em;
+}
+
+h3 {
+    color: #112240;
+    margin-bottom: 15px;
+}
+
+p, li {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.education-item,
+.project-item,
+.skills-category {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 4px solid #64ffda;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+}
+
+.project-item ul {
+    padding-left: 20px;
+}
+
+.project-item ul li {
+    margin-bottom: 8px;
+}
+
+.skills-category p {
+    margin-bottom: 0;
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0a192f;
+    color: #8892b0;
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    p, li {
+        font-size: 1em;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info a {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+}
+--css--
+--js--
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Portfolio loaded successfully.");
+});
+--js--
